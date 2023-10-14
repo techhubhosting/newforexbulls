@@ -1,6 +1,11 @@
-.headline{
-    text-align: center;
-    font-size: 45px;
+.headline {
+    text-align: center; /* Center align on desktop */
+}
+
+@media (max-width: 767px) {
+    .headline {
+        text-align: left; /* Left align on mobile devices */
+    }
 }
 .iframe-container
 {position:relative;width:100%;padding-bottom:56.25%;height:0}
@@ -8,7 +13,7 @@
 iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 
 .col-lg-11 {
-    text-align: center;
+    align-items: center;
 }
 
 .images_esc img {
@@ -16,8 +21,11 @@ iframe{position:absolute;top:0;left:0;width:100%;height:100%}
     height: auto;
 }
 .logos{
-    height: 60px;
-    width: 90px;
+    height: 45px;
+    width: 75px;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+    
 }
 .btn{
     font-size: 15px;
