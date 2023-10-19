@@ -30,3 +30,15 @@ iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 .btn{
     font-size: 15px;
 }
+.bg-silver{
+    background-color: silver !important;
+}
+.bg-gold{
+    background-color: gold !important;
+}.bg-diamond{
+    background-color: #B9F2FF !important;
+}
+.embed-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:50px}.embed-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:10px}@media(max-width:767px){.col-md-6{width:100%}}
+.heading-paragraph{
+    color: white;
+}
